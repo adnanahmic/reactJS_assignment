@@ -1,0 +1,67 @@
+.profile_modal {
+  .profile_info_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .profile_icon {
+      margin-right: 29.18px;
+    }
+
+    .profile_info {
+      display: flex;
+      flex-direction: column;
+
+      .profile_name {
+        font-family: Ubuntu;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: left;
+        color: #334144;
+      }
+
+      .profile_signtings {
+        font-family: Ubuntu;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 13px;
+        text-align: left;
+        color: #949ea0;
+      }
+    }
+  }
+
+  .profile_details {
+    display: flex;
+    flex-direction: column;
+
+    .label {
+      font-family: Ubuntu;
+      font-size: 10px;
+      line-height: 10px;
+      text-align: left;
+      color: #949ea0;
+    }
+    .detail_field {
+      font-family: Ubuntu;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 13px;
+      text-align: left;
+      color: #334144;
+      padding-top: 16px;
+      padding-bottom: 31px;
+    }
+  }
+
+  .log_out_btn {
+    background: linear-gradient(270deg, #ecbcb3 0%, #eaa79e 100%);
+    box-shadow: 0px 15px 20px 0px #eaa89f33;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+}

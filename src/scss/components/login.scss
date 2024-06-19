@@ -1,0 +1,65 @@
+.login_modal {
+  box-shadow: 0px 15px 30px 0px #0000000d;
+  border-radius: 0px !important;
+
+  .login_title {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #334144;
+  }
+  .form-group {
+    border: 1px solid #dfe5ea;
+    background: #f5f6f7;
+    padding: 10px 15px 5px;
+  }
+
+  .input {
+    color: black;
+    background: transparent;
+    border: none;
+    padding: 5px 0;
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 1;
+    text-align: left;
+    outline: none;
+
+    &::placeholder {
+      font-family: Ubuntu;
+      font-size: 10px;
+      line-height: 10px;
+      text-align: left;
+      position: absolute;
+    }
+  }
+
+  .input_label {
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: left;
+    color: #949ea0;
+    padding-bottom: 5px;
+  }
+
+  .auth_submit_btn {
+    background: linear-gradient(270deg, #ecbcb3 0%, #eaa79e 100%);
+    box-shadow: 0px 15px 20px 0px #eaa89f33;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin-top: 20px;
+
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+}

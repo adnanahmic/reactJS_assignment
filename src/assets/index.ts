@@ -1,0 +1,5 @@
+export { ReactComponent as Logo } from './images/logo.svg'
+export { ReactComponent as FlowerStar } from './images/flower-star.svg'
+export { ReactComponent as ProfileIcon } from './images/profile.svg'
+export { ReactComponent as Close } from './images/close-icon.svg'
+export { ReactComponent as LoaderIcon } from './images/loader.svg'

@@ -1,0 +1,41 @@
+.header {
+  @apply mt-auto w-full items-center align-middle bg-white;
+
+  .logo_section {
+    .logo_title {
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 14px;
+      text-align: left;
+      color: #eaa79e;
+    }
+  }
+
+  .menu_item {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: #949ea0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_login {
+      color: #df9186;
+    }
+
+    &_new {
+      background: linear-gradient(270deg, #ecbcb3 0%, #eaa79e 100%);
+      color: white;
+      width: 140px;
+      height: 40px;
+      align-items: center;
+      box-shadow: 0px 15px 20px 0px #eaa89f33;
+      border-radius: 24px;
+    }
+  }
+}
